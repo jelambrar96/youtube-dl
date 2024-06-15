@@ -36,5 +36,6 @@ def download_audio_from_channel(channel_url, download_path='downloads'):
 
 if __name__ == '__main__':
     # Example channel URL
-    channel_url = sys.arv[1]
+    # 'https://www.youtube.com/c/YourChannelName'
+    channel_url = sys.argv[1]
     download_audio_from_channel(channel_url)
